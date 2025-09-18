@@ -11,7 +11,8 @@ public class principal {
         z = 25;
         dec = 7.4;
         married = true;
-        
+        character = 'G';
+        name = "Antonio";
 
         //noms de variables no poden començar amb nombres(1, 2...) signes(@, - ...) o paraules reservades(true, final...)
 
