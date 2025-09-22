@@ -127,11 +127,16 @@ public class exercicisFull {
         double valorExamen = 0.6;
         double exerciciPerAprovar;
         exerciciPerAprovar = 5 - notaExamen*valorExamen;
-        System.out.println("per aprovar cal un " + exerciciPerAprovar + " de nota als exercicis");
+        double notaPerAprovar = exerciciPerAprovar/0.4;
+        System.out.println("per aprovar cal un " + notaPerAprovar + " de nota als exercicis");
 
         //---------------
 
-
+        double x;
+        System.out.println("quin valor és X?");
+        x = escaner.nextDouble();
+        double result = x*x*x + x*x*2 + 7*x + 7;
+        System.out.println("el resultat és" + result);
 
 
         escaner.close();
