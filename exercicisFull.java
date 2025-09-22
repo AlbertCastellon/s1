@@ -132,10 +132,10 @@ public class exercicisFull {
 
         //---------------
 
-        double x;
+        double var;
         System.out.println("quin valor és X?");
-        x = escaner.nextDouble();
-        double result = x*x*x + x*x*2 + 7*x + 7;
+        var = escaner.nextDouble();
+        double result = var*var*var + var*var*2 + 7*var + 7;
         System.out.println("el resultat és" + result);
 
 
