@@ -36,7 +36,7 @@ public class exercicisFull {
         preu2 = escaner.nextDouble();
         System.out.println("Quin descompte s'aplica?");
         descompte = escaner.nextDouble();
-        preuFinal = preu2*descompte/100;
+        preuFinal = preu2*(100-descompte)/100;
         System.out.println("el preu final es " + preuFinal);
 
         //------------------------------
@@ -70,7 +70,7 @@ public class exercicisFull {
         anys = escaner.nextInt();
         dies = anys*365;
         segons = dies*24*3600;
-        System.out.println("has viscut " + dies + "dies, o " + segons + " segons");
+        System.out.println("has viscut " + dies + " dies, o " + segons + " segons");
 
         //---------------------
 
@@ -106,7 +106,7 @@ public class exercicisFull {
         height= escaner.nextDouble();
         System.out.println("quina es la base del triangle?");
         base = escaner.nextDouble();
-        area = height*base*2;
+        area = height*base/2;
         System.out.println("L'area del triangle és " + area);
 
         //---------------------
@@ -127,7 +127,7 @@ public class exercicisFull {
         double valorExamen = 0.6;
         double exerciciPerAprovar;
         exerciciPerAprovar = 5 - notaExamen*valorExamen;
-        System.out.println("per aprovar cal un " + exerciciPerAprovar + "de nota als exercicis");
+        System.out.println("per aprovar cal un " + exerciciPerAprovar + " de nota als exercicis");
 
         //---------------
 
