@@ -138,6 +138,46 @@ public class exercicisFull {
         double result = var*var*var + var*var*2 + 7*var + 7;
         System.out.println("el resultat és" + result);
 
+        //----------------
+
+        int money;
+        System.out.println("Introdueix un valor" );
+        money = escaner.nextInt();
+        
+        System.out.println(money + " són:");
+        System.out.println(money / 5 + "bitllets de 5 i me'n sobren " + money % 5);
+        System.out.println(money / 10 + "bitllets de 10 i me'n sobren " + money % 10);
+        System.out.println(money / 20 + "bitllets de 20 i me'n sobren " + money % 20);
+        System.out.println(money / 50 + "bitllets de 50 i me'n sobren " + money % 50);
+        System.out.println(money / 100 + "bitllets de 100 i me'n sobren " + money % 100);
+
+        //-----------------------
+
+        int money2;
+        int resta;
+        System.out.println("Introdueix un valor" );
+        money2 = escaner.nextInt();
+        int bil5, bil10, bil20, bil50, bil100;
+        bil100 = money2 / 100;
+        resta = money2 % 100;
+        bil50 = resta / 50;
+        resta = resta % 50;
+        bil20 = resta / 20;
+        resta = resta % 20;
+        bil10 = resta / 10;
+        resta = resta % 10;
+        bil5 = resta / 5;
+        resta = resta % 5;
+
+        System.out.println(money2 + " són:");
+        System.out.println(bil100 + "bitllets de 100");
+        System.out.println(bil50 + "bitllets de 50");
+        System.out.println(bil20 + "bitllets de 20");
+        System.out.println(bil10 + "bitllets de 10");
+        System.out.println(bil5 + "bitllets de 5");
+        System.out.println("i sobren " + resta + " euros");
+
+        //-----------------------
 
         escaner.close();
     }
